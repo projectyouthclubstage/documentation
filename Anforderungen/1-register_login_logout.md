@@ -1,8 +1,10 @@
 # Registrierung, Anmeldung und Abmeldung (Nr. 1)
 
-## 1-1 Registrierung
+## Registrierung (Nr. 1-1)
 
-## 1-2 Anmeldung
+*TODO*
+
+## Anmeldung (Nr. 1-2)
 
 Ohne die Anmeldung ist keine Verwendung der Services möglich. Über Token, die 
 mit einer private-public-Key-Kombination gesichert sind, wird den Services
@@ -30,4 +32,6 @@ erneuern.
 
 ![Sequenzdiagram der kontextgebundenen Anmeldung](img/1-login_with_context.png)
 
-## 1-3 Abmeldung
+## Abmeldung (Nr. 1-3)
+
+*TODO*
