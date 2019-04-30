@@ -4,19 +4,10 @@
 
 Um die Authentifzierung sicherzustellen werden die externen Auth-Provider von 
 Google[^google] und Facebook[^facebook] verwendet.
-Hierbei wird über ein `POST` per *spring-security* automatisch ein Call gegen 
-die vorgegebene API des ausgewählten Providers gefahren.
 
-Für Google ist zu beachten, dass die Resource, von der der POST ausgeführt wird, 
-direkt beim Erstellen der Auth-API bei Google angegeben werden muss,
-incl. Port. Daher müssen hier Änderungen durchgeführt werden, wenn die Anwendung
-auf einem neuen Port gestartet werden soll.
+Das Frontend ist für die Ermittlung eines Provider-Spezifischen User-Token zuständig. 
 
-Google benötigt eine eigene Konfiguration, während Facebook mit den von Spring
-gelieferten Einstellungen funktionsfähig ist.
-
-Der Facebook-Provider gestattet keinen Zugriff auf Daten, die mit *bio* 
-abgerufen wrden. Das Erhöhen der Version löst dieses Problem.
+Für die Backend-Validierung wird über ein `GET` auf die vorgegebene URI des Providers überprüft, ob der geliefterte Token gültig ist. Dabei wird die ProviderId ermittelt.
 
 
 ## Authentifizierung gegen eigene Daten
