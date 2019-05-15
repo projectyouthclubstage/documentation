@@ -12,7 +12,7 @@ Es wurden folgende Identitäten zum Testen in den externen Rechteprovidern erste
 | Geschlecht    | weiblich               |
 | Geburtstag    | 12.07.1994             |
 | Telefonnummer | +49-160-93522076 (JW)  |
-| Facebook      | beantragt              |
+| Facebook      | ja                     |
 | Google        | ja                     |
 
 #### 2. Ingo Imhof
